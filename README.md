@@ -1,3 +1,4 @@
+
 # Transer-Learning--MNIST
 Transfer Learning on MNIST dataset
 
@@ -25,17 +26,6 @@ pool_size = 2
 kernel_size = 3
 ```
 
-## Model Arhitecture for digits 5-9
-|<img width="640" height="450" src="https://github.com/bipulsimkhada/Image/blob/main/modelsummary.png">|
+## Model Arhitecture
+|<img src="https://github.com/bipulsimkhada/Image/blob/main/modelsummary.png">|
 
-## Model Compile
-```python
-model.compile(loss='categorical_crossentropy',
-              optimizer='adam',
-              metrics=['accuracy'])
-```
-
-## Training the model
-```python
-model.fit(x_train,y_train,epochs=20, batch_size = batch_size)
-```
