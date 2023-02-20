@@ -27,5 +27,5 @@ kernel_size = 3
 ```
 
 ## Model Arhitecture
-|<img src="https://github.com/bipulsimkhada/Image/blob/main/modelsummary.png">|
+<img src="https://github.com/bipulsimkhada/Image/blob/main/modelsummary.png">
 
