@@ -26,16 +26,7 @@ kernel_size = 3
 ```
 
 ## Model Arhitecture for digits 5-9
-```python
-# model is a 3-layer MLP with ReLU and dropout after each layer
-model = Sequential()
-model.add(Dense(hidden_units,activation="relu",input_dim=input_size))
-model.add(Dropout(dropout))
-model.add(Dense(hidden_units,activation="relu"))
-model.add(Dropout(dropout))
-model.add(Dense(num_labels))
-model.add(Activation('softmax'))
-```
+|<img width="640" height="450" src="https://github.com/bipulsimkhada/Image/blob/main/modelsummary.png">|
 
 ## Model Compile
 ```python
